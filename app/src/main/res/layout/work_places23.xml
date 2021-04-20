@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc">
+
+    <Button
+        android:id="@+id/bld2_fl3_work1_Btn"
+        android:layout_width="184dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="92dp"
+        android:onClick="onSetupBtnClick"
+        android:tag="1"
+        android:text="Рабочее место №1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bld2_fl3_work0_Btn"
+        android:layout_width="184dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="400dp"
+        android:layout_marginTop="432dp"
+        android:onClick="onSetupBtnClick"
+        android:tag="0"
+        android:text="Загрузчик"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bld2_fl3_work2_Btn"
+        android:layout_width="184dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="92dp"
+        android:onClick="onSetupBtnClick"
+        android:tag="2"
+        android:text="Рабочее место №2"
+        app:layout_constraintStart_toEndOf="@+id/bld2_fl3_work1_Btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bld2_fl3_work3_Btn"
+        android:layout_width="184dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="92dp"
+        android:onClick="onSetupBtnClick"
+        android:tag="3"
+        android:text="Рабочее место №3"
+        app:layout_constraintStart_toEndOf="@+id/bld2_fl3_work1_Btn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="2-й корпус, 3-й этаж, рабочие места:"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="71dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Launcher</string>
+    <string name="hz28">Хлебозавод №28</string>
+    <string name="WorkPlaceSetupStr">Установить рабочее место</string>
+    <string name="AppNotFoundStr">Установленное приложение не найдено</string>
+    <string name="WorkPlacePackageStr">com.hz28.workplace</string>
+    <string name="bld1_fl1_btnStr">1-й этаж</string>
+    <string name="bld1_textViewStr">" Корпус №1"</string>
+    <string name="bld1_fl2_btnStr">2-й этаж</string>
+    <string name="bld1_fl3_btnStr">3-й этаж</string>
+    <string name="bld1_fl4_btnStr">4-й этаж</string>
+    <string name="bld1_fl5_btnStr">5-й этаж</string>
+    <string name="bld2_textViewStr">" Корпус №2"</string>
+    <string name="btn1_fl1_bld1_Str">"Регистрация\n(рабочее место №4)"</string>
+    <string name="btn1_fl2_bld2_Str">"Регистрация\n(рабочее место №5)"</string>
+</resources>

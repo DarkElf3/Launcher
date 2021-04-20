@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".LaunchActivity">
+
+    <View
+        android:id="@+id/bld2_view"
+        android:layout_width="389dp"
+        android:layout_height="504dp"
+        android:layout_marginStart="560dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/frame"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bld2_fl3_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="23"
+        android:text="@string/bld1_fl3_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bld2_fl2_btn"
+        app:layout_constraintEnd_toEndOf="@+id/bld2_view"
+        app:layout_constraintStart_toStartOf="@+id/bld2_view" />
+
+    <Button
+        android:id="@+id/bld2_fl4_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="24"
+        android:text="@string/bld1_fl4_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bld2_fl3_btn"
+        app:layout_constraintEnd_toEndOf="@+id/bld2_view"
+        app:layout_constraintStart_toStartOf="@+id/bld2_view" />
+
+    <Button
+        android:id="@+id/bld2_fl1_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="21"
+        android:text="@string/bld1_fl1_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bld2_view"
+        app:layout_constraintEnd_toEndOf="@+id/bld2_view"
+        app:layout_constraintStart_toStartOf="@+id/bld2_view" />
+
+    <Button
+        android:id="@+id/bld2_fl5_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="25"
+        android:text="@string/bld1_fl5_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bld2_fl4_btn"
+        app:layout_constraintEnd_toEndOf="@+id/bld2_view"
+        app:layout_constraintStart_toStartOf="@+id/bld2_view" />
+
+    <TextView
+        android:id="@+id/bld2_textView"
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bld2_textViewStr"
+        android:textColor="#33b5e5"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bld2_view"
+        app:layout_constraintStart_toStartOf="@+id/bld2_view"
+        app:layout_constraintTop_toTopOf="@+id/bld2_view" />
+
+    <Button
+        android:id="@+id/bld2_fl2_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="22"
+        android:text="@string/bld1_fl2_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bld2_fl1_btn"
+        app:layout_constraintEnd_toEndOf="@+id/bld2_view"
+        app:layout_constraintStart_toStartOf="@+id/bld2_view" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="1.0"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="Выбор рабочего места для загрузки"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/bld1_fl2_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="12"
+        android:text="@string/bld1_fl2_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bld1_fl1_Btn"
+        app:layout_constraintEnd_toEndOf="@+id/bld1_view"
+        app:layout_constraintStart_toStartOf="@+id/bld1_view" />
+
+    <Button
+        android:id="@+id/bld1_fl3_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="13"
+        android:text="@string/bld1_fl3_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bld1_fl2_btn"
+        app:layout_constraintEnd_toEndOf="@+id/bld1_view"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/bld1_view" />
+
+    <Button
+        android:id="@+id/bld1_fl1_Btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="11"
+        android:text="@string/bld1_fl1_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/bld1_view"
+        app:layout_constraintEnd_toEndOf="@+id/bld1_view"
+        app:layout_constraintStart_toStartOf="@+id/bld1_view" />
+
+    <View
+        android:id="@+id/bld1_view"
+        android:layout_width="389dp"
+        android:layout_height="504dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/frame"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bld1_fl5_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="15"
+        android:text="@string/bld1_fl5_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bld1_fl4_btn"
+        app:layout_constraintEnd_toEndOf="@+id/bld1_view"
+        app:layout_constraintStart_toStartOf="@+id/bld1_view" />
+
+    <Button
+        android:id="@+id/bld1_fl4_btn"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:onClick="onFloorBtnClick"
+        android:tag="14"
+        android:text="@string/bld1_fl4_btnStr"
+        android:textColor="#71D4F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bld1_fl3_btn"
+        app:layout_constraintEnd_toEndOf="@+id/bld1_view"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/bld1_view" />
+
+    <TextView
+        android:id="@+id/bld1_textView"
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bld1_textViewStr"
+        android:textColor="#33b5e5"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bld1_view"
+        app:layout_constraintStart_toStartOf="@+id/bld1_view"
+        app:layout_constraintTop_toTopOf="@+id/bld1_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
